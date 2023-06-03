@@ -7,6 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "prettier": "prettier --write .",
+    "lint": "eslint .",
+    "lint:errors": "eslint --quiet .",
+    "lint:fix": "eslint --fix .",
     "prepare": "husky install"
   },
   "private": true,
