@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "calendario-animali-2"
+  },
+  "targets": {
+    "calendario-animali-2": {
+      "hosting": {
+        "calendario-animali-2": [
+          "calendario-animali-2"
+        ]
+      }
+    }
+  }
+}
+

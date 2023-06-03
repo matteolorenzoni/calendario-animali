@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirebaseInitializeService } from './service/firebase/firebase-initialize.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(private firebaseInitializeService: FirebaseInitializeService) {}
+
   title = 'Calendario animali';
 }
